@@ -1,0 +1,62 @@
+#title {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0.5vh 1.6vh 0.5vh 1.6vh;
+}
+
+.row {
+    align-items: center;
+}
+
+#list{
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 992px) {
+    #search {
+        position: relative;
+        top: -30vh;
+    }
+    .nav-item {
+        position: relative;
+        top: 7vh;
+    }
+    #wrapper{
+        position: relative;
+        width: 100%;
+    }
+    #navi{
+        position: absolute;
+        width: 100%;
+    }
+    #container{
+        position: absolute;
+        width: 100%;
+        top: 15vh;
+        z-index: -999;
+    }
+ 
+    #navbar{
+z-index: 999;
+    }
+    #listOptions {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    #list{
+        position: absolute;
+        bottom: -60vh;
+        width: 80%;
+    }
+
+    #title{
+        display: none;
+    }
+    
+   
+}
